@@ -12,6 +12,10 @@ import { render } from 'react-dom'
 ```
 Импортируем JS-объект ReactDOM под именем render через файл ./node_modules/react-dom/index.js
 
+```
+import { render } from 'react-dom'
+```
+
 
 ---
 
