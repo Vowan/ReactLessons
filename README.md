@@ -1,32 +1,17 @@
-# Setting up the Project
+# Пошаговое объяснение этого урока
 
-First you'll need [Node.js](https://nodejs.org) and the package manager
-that comes with it: [npm](https://www.npmjs.com/).
-
-Once you've got that working, head to the command line where we'll set
-up our project.
-
-## Clone the Tutorial
+## Стартовая точка - файл index.js
 
 ```
-git clone https://github.com/reactjs/react-router-tutorial
-cd react-router-tutorial
-cd lessons/01-setting-up
-npm install
-npm start
+import React from 'react' 
 ```
+Импортируем JS-объект React из файла  ./node_modules/react/lib/React.js
 
-Now open up [http://localhost:8080](http://localhost:8080)
+```
+import { render } from 'react-dom'
+```
+Импортируем JS-объект ReactDOM под именем render через файл ./node_modules/react-dom/index.js
 
-Feel free to poke around the code to see how we're using webpack and npm
-scripts to run the app.
-
-You should see a "Hello React Router" message in the browser.
-
-## Make Some Changes
-
-Open up `modules/App.js` and change the text to something like "Hello
-<your name>". The browser automatically reloads with your new code.
 
 ---
 
